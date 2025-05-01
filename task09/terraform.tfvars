@@ -1,0 +1,8 @@
+unique_id           = "cmtr-64aed6d7-mod9-"
+location            = "East US"
+rg_name             = "cmtr-64aed6d7-mod9-rg"
+vnet_name           = "cmtr-64aed6d7-mod9-vnet"
+vnet_space          = "10.0.0.0/16"
+subnet_name         = "aks-snet"
+subnet_space        = "10.0.0.0/24"
+aks_loadbalancer_ip = "135.234.218.6"
