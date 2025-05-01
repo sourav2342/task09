@@ -38,6 +38,11 @@ variable "aks_loadbalancer_ip" {
   type        = string
 }
 
+variable "fwpip" {
+  description = "value"
+  type = string
+}
+
 
 variable "application_rules" {
   type = list(object({

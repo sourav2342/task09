@@ -30,3 +30,9 @@ variable "aks_loadbalancer_ip" {
   description = "value"
   type        = string
 }
+
+
+variable "fwpip_to_internet" {
+  description = "value"
+  type        = string
+}

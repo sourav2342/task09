@@ -8,6 +8,7 @@ module "afw" {
   subnet_name         = var.subnet_name
   subnet_space        = var.subnet_space
   aks_loadbalancer_ip = var.aks_loadbalancer_ip
+  fwpip = var.fwpip_to_internet
 
   application_rules = local.application_rules
   network_rules     = local.network_rules
